@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stilos/indexglas.css">
+    <title>Glasformismo</title>
+</head>
+<body >
+  <div class="container">
+        
+    <div id="circle" class="circle"></div>
+
+    <div id="controles">
+      <div class="containerForm">
+      <div class="cuadrocontroles" id="cuadrocontroles">
+        <label for="colores" id="tituloselectcolor">Seleciona Un Color:</label>
+        <input type="color" name="colores" value="#000000" id="colores">
+        <br>
+        <div class="control">
+          <label for="Transparencia">Transparencia:</label>
+          <input type="range" id="transparencia" name="transparencia" min="0" max="100" value="50" class="barra"><span id="transpan">0</span>
+        </div>
+        <div class="control">
+          <label for="Brillo">Brillo:</label>
+          <input type="range" id="brillo" name="brillo" min="0" max="100" value="100" class="barra"> <span id="brispan">0</span>
+        </div>
+        <div class="control">
+          <label for="contraste">Contraste:</label>
+          <input type="range" id="contraste" name="contraste" min="0" max="100" value="100" class="barra" > <span id="contrasteSpan">0</span>
+        </div>
+        <div class="control" id="satsat">
+          <label for="Saturación">Saturación:</label>
+          <input class="satspan" type="range" id="saturacion" name="saturacion" min="0" max="100" value="50" class="barra"> <span id="satspan" >0</span>
+        </div>
+        <div class="control">
+          <label for="Difuminado">Difuminado:</label>
+          <input type="range" id="difuminado" name="difuminado" min="0" max="100" value="25" class="barra"> <span id="difuspan">0</span>
+        </div>
+               
+        <div>
+          <label for="areatexto"></label>
+          <textarea id="areatexto" rows="8px" cols="50px">Copia las propiedades:</textarea>
+        </div>
+        
+        
+       </div>
+      </div>
+    </div>
+  </div>             
+<script src="./appss.js"></script>
+</body>
+
+</html>

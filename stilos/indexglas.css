@@ -1,0 +1,207 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+  }
+  body {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/845/623/689/mountain-running-water-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+    overflow: hidden;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3vw;
+  }
+  
+  h1:hover {
+    color: white;
+    transform: scaleX(1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h2:hover {
+    color: white;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    max-width: 80vw;
+  }
+  
+  .circle {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    background-color: #FF5733;
+    border-radius: 50%;
+
+  }
+  
+  #colores {
+    display: flex;
+    flex-direction: column;
+  
+    margin-right: auto;
+    margin-left: auto;
+    width: 5vw;
+    height: 5vw;
+    padding: 0px;
+  }
+  
+  #tituloselectcolor{
+    text-align: center;
+  }
+  
+  #controles {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: fit-content;
+    background-color: rgba(255, 255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 2vw;
+    border-radius: 10px;
+    color: white;
+  }
+  
+ 
+  .cuadrocontroles {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 1vw;
+    z-index: 2;
+  }
+  
+  .containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 1vw;
+    border-radius: 10px;
+  }
+  
+  input {
+    width: 20vw;
+  }
+  
+  .control {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 30px;
+    text-align: start;
+  }
+  
+  #areatexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 1%;
+  }
+  
+  @media (max-width: 500px) {
+    html {
+      background-image: url(https://p4.wallpaperbetter.com/wallpaper/845/623/689/mountain-running-water-wallpaper-preview.jpg);
+      background-repeat: no-repeat;
+      background-color: black;
+      background-size: cover;
+      overflow: hidden;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      height: 100%;
+      width: 100%;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .circle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 40vw;
+      width: 40vw;
+      background-color: aliceblue;
+      border-radius: 50%;
+      margin-bottom: 10vw;
+    
+    }
+  
+    #controles {
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      justify-content: stretch;
+      align-items: center;
+      max-width: fit-content;
+      background-color: rgba(255, 255, 255, 255, 0.5);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      padding: 2vw;
+      border-radius: 10px;
+      color: white;
+    }
+  
+    h1 {
+      text-align: center;
+      font-size: 8vw;
+      margin-top: 20%;
+    }
+  
+    h1:hover {
+      color: white;
+      transform: scaleX(1);
+    }
+  
+    h2 {
+      font-size: 4vw;
+      text-align: center;
+    }
+  
+    h2:hover {
+      color: white;
+    }
+  }
+  
